@@ -16952,7 +16952,7 @@ textarea.form-control:active {
 
 @media (min-width: 768px) {
   .info:first-of-type {
-    padding-top: 60%;
+    padding-top: 10%;
   }
 }
 

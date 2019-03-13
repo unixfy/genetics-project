@@ -12,10 +12,11 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
   <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+  <link href="assets/css/custom.css" rel="stylesheet" />
 </head>
 
-<body class="index-page">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom">
     <a class="navbar-brand" href="#intro">Genetics & Personality</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,10 +25,10 @@
     <div class="collapse navbar-collapse" id="navToggle">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="#intro">Intro</a>
+          <a class="nav-link smoothscroll" href="#intro">Intro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link smoothscroll" href="#first">Personality Traits</a>
         </li>
       </ul>
     </div>
@@ -44,6 +45,8 @@
             <br /><br />
             <h1 class="text-white">Genetics & Personality</h1>
             <p class="text-white mb-3">Personalities make us who we are. Some of us might be outgoing, while others may be quieter. But, have you thought about what exactly causes this infinite variety of personalities?</p>
+            <a class="btn btn-primary" href="#first"><i class="fas fa-chevron-down"></i> Tell me More!</a>
+
           </div>
           <div class="col-lg-4 col-md-5">
             <img src="../assets/img/intro.png" alt="Circle image" class="img-fluid">
@@ -54,12 +57,154 @@
   </div>
 
   <div class="container">
-    <div class="card">
+
+    <div class="card" id="first">
       <div class="card-body">
-        This is some text within a card body.
+        <!-- Personality traits (5)  -->
+        <div class="container">
+          <br />
+          <h2 class="display-3">The "Big Five" Personality Traits
+            <br />
+          <small>
+          What makes up personality?
+        </small></h2>
+          <hr class="line-primary" />
+          <div class="row row-grid">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="icon icon-primary">
+                  <i class="fas fa-comment"></i>
+                </div>
+                <h4 class="info-title">Extroversion</h4>
+                <hr class="line-primary">
+                <p>Divide details about your work into parts. Write a few lines about each one. A paragraph describing a feature will.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="icon icon-info">
+                  <i class="fas fa-trophy"></i>
+                </div>
+                <h4 class="info-title">Conscientiousness</h4>
+                <hr class="line-info">
+                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing feature will be a feature. </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="icon icon-success">
+                  <i class="fas fa-check-square"></i>
+                </div>
+                <h4 class="info-title">Agreeableness</h4>
+                <hr class="line-success">
+                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing be enough.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-grid justify-content-center">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="icon icon-warning">
+                  <i class="fas fa-sad-tear"></i>
+                </div>
+                <h4 class="info-title">Neuroticism</h4>
+                <hr class="line-warning">
+                <p>Divide details about your work into parts. Write a few lines about each one. A paragraph describing a feature will.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="icon icon-danger">
+                  <i class="fas fa-door-open"></i>
+                </div>
+                <h4 class="info-title">Openness to Experience</h4>
+                <hr class="line-danger">
+                <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing feature will be a feature. </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
+
+  <hr />
+
+
+  <!-- Effects of genes  -->
+  <div class="container">
+    <br />
+    <h2 class="display-3">Effects of Genes on Personality Traits
+    <br />
+  <small>How do genetics affect the "Big Five" personality traits?</small></h2>
+    <hr class="line-primary" />
+    <div class="row row-grid">
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="icon icon-primary">
+            <i class="fas fa-comment"></i>
+          </div>
+          <h4 class="info-title">Extroversion</h4>
+          <hr class="line-primary">
+          <p>Divide details about your work into parts. Write a few lines about each one. A paragraph describing a feature will.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="icon icon-info">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h4 class="info-title">Conscientiousness</h4>
+          <hr class="line-info">
+          <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing feature will be a feature. </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="icon icon-success">
+            <i class="fas fa-check-square"></i>
+          </div>
+          <h4 class="info-title">Agreeableness</h4>
+          <hr class="line-success">
+          <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing be enough.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-grid justify-content-center">
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="icon icon-warning">
+            <i class="fas fa-sad-tear"></i>
+          </div>
+          <h4 class="info-title">Neuroticism</h4>
+          <hr class="line-warning">
+          <p>Divide details about your work into parts. Write a few lines about each one. A paragraph describing a feature will.</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="icon icon-danger">
+            <i class="fas fa-door-open"></i>
+          </div>
+          <h4 class="info-title">Openness to Experience</h4>
+          <hr class="line-danger">
+          <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing feature will be a feature. </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted"><b>&copy; 2019 Alex Wang dba Unixfy</b>. Created with <i class="fas fa-heart"></i> <br /> Source code is available <a href="https://github.com/unixfy/genetics-project">on GitHub</a> under the MIT license.</span>
+    </div>
+  </footer>
 
 </body>
 <!--   Core JS Files   -->
@@ -82,12 +227,12 @@
 <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
 <!-- Smooth scroll -->
 <script>
-$('.nav-link, .navbar-brand, .new-button').click(function() {
+  $('.smoothscroll, .navbar-brand, .new-button, .btn').click(function() {
     var sectionTo = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(sectionTo).offset().top
     }, 1500);
-});
+  });
 </script>
 
 </html>

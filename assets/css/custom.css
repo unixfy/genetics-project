@@ -1,14 +1,13 @@
 body {
   width: 100wh;
-  height: 90vh;
-  color: #fff;
-  background: linear-gradient(222deg, #8e24aa, #5e35b1, #3949ab, #303f9f);
+  height: 100vh;
+  background: linear-gradient(222deg, #6A1B9A, #4527A0, #283593, #1565C0, #0277BD, #00838F);
   background-size: 800% 800%;
-  -webkit-animation: Genetic 18s ease infinite;
-  -moz-animation: Genetic 18s ease infinite;
-  -o-animation: Genetic 18s ease infinite;
-  animation: Genetic 18s ease infinite;
-  @-webkit-keyframes Genetic {
+  -webkit-animation: gradient 15s ease infinite;
+  -moz-animation: gradient 15s ease infinite;
+  -o-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  @-webkit-keyframes gradient {
     0% {
       background-position: 88% 0%
     }
@@ -19,7 +18,7 @@ body {
       background-position: 88% 0%
     }
   }
-  @-moz-keyframes Genetic {
+  @-moz-keyframes gradient {
     0% {
       background-position: 88% 0%
     }
@@ -30,7 +29,7 @@ body {
       background-position: 88% 0%
     }
   }
-  @-o-keyframes Genetic {
+  @-o-keyframes gradient {
     0% {
       background-position: 88% 0%
     }
@@ -41,7 +40,7 @@ body {
       background-position: 88% 0%
     }
   }
-  @keyframes Genetic {
+  @keyframes gradient {
     0% {
       background-position: 88% 0%
     }
